@@ -1,0 +1,38 @@
+body {
+  background: #1f1f1f;
+  font-family: "Be Vietnam";
+  margin: 0;
+  padding: 0;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    margin: 0;
+  }
+  input:focus,
+  button:focus {
+    outline: none;
+  }
+  img {
+    max-width: 100%;
+    border: none;
+  }
+  button {
+    font-family: "Be Vietnam";
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0;
+  }
+}
+*::placeholder {
+  color: darkred;
+  opacity: 1;
+}
+*:-ms-input-placeholder {
+  color: darkred;
+}
+*::-webkit-input-placeholder {
+  color: darkred;
+}

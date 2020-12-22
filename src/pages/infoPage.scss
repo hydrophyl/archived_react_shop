@@ -1,0 +1,22 @@
+#info-page {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  padding-bottom: 2rem;
+  .btn-submit {
+    background: #4d0f0f;
+    color: white;
+    border-radius: 20px;
+    padding-bottom: 6px;
+    width: 280px;
+    height: 60px;
+  }
+  .btn-submit:hover {
+    background: #4d0f0f90;
+  }
+  .btn-submit:focus,
+  .btn-submit:active {
+    background: #4d0f0f20;
+  }
+}

@@ -1,0 +1,2 @@
+export const GAU_QUY_TOKEN = "1453332832:AAE4gmEUfBCeTri92-efL3s6zlXNcbCAkKo";
+export const CHANNEL_ID = "-1001300163327";

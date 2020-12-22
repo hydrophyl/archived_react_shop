@@ -1,0 +1,29 @@
+#payment-page {
+  max-height: 100vh;
+  .btn-group {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    * {
+      padding: 1rem;
+    }
+    :last-child {
+      background: lightblue;
+      margin-left: 1rem;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  #payment-page {
+    .btn-group {
+      flex-direction: column;
+      * {
+        margin-top: 1rem;
+      }
+      :last-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
